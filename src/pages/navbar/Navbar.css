@@ -1,0 +1,46 @@
+.navbar{
+    background-color:#022357;
+    padding: 2%;
+    background-color: url("../../assets/backgroudtop/Bitmap-left.png");
+}
+.background-top{
+    width: 100%;
+    display: flex;
+}
+
+.background-bettween{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left{
+    padding-left: 10%;
+}
+.navbar-top-left{
+    display: inline-flex;
+    list-style-type: none;
+}
+.navbar-top{
+    padding: 15%;
+    font-size: 30px;
+}
+.btn-navbar {
+    width: 100%;
+    display: flex;
+    margin: 0% 2%;
+    text-align: center;
+    background-color: #6C86B1;
+    padding: 2%;
+    border-radius: 180px;
+    border: 1px solid #6C86B1;
+    font-size: 12px;
+}
+/* .text{
+    
+} */
+.navbar-right {
+    width: 40%;
+    display: flex;
+}

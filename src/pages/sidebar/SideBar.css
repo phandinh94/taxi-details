@@ -1,0 +1,14 @@
+
+.sidebar{
+    position: absolute;
+left: 5%;
+top: 5%;
+padding: 2%;
+background: #0A6ADA;
+border-radius: 12px;
+text-align: center;
+color: white;
+}
+.sidebar-list{
+ list-style-type: none;
+}
