@@ -1,0 +1,15 @@
+.info-contnet{
+    display: flex;
+}
+.product-img{
+    margin: 5% 2%;
+}
+.mginfo-product{
+    width: 100%;
+}
+.info-sale{
+    display: flex;
+}
+.ratting-product{
+    display: flex;
+}

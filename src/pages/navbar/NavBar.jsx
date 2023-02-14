@@ -1,55 +1,46 @@
 import iconPartner from "../../assets/Icon-Add.jpg";
-
 import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      {/* <div className="background-top">
-        <div className="cloud-left"></div>
-        <div className="cloud-right"></div>
-      </div> */}
-      <div className="background-bettween">
+    <div className="navbar" >
         <div className="navbar-left">
-          <ul className="navbar-top-left">
-            <li className="navbar-top left-items">
+            <button className="navbar-top left-items">
               <i className="fa-solid fa-plane-departure"></i>
-            </li>
-            <li className="navbar-top left-items">
+            </button>
+            <button className="navbar-top left-items">
               <i className="fa-solid fa-bed"></i>
-            </li>
-            <li className="navbar-top left-items">
+            </button>
+            <button className="navbar-top left-items">
               <i className="fa-solid fa-home"></i>
-            </li>
-            <li className="navbar-top left-items">
+            </button>
+            <button className="navbar-top left-items">
               <i className="fa-solid fa-taxi"></i>
-            </li>
-          </ul>
+            </button>
         </div>
 
         <div className="navbar-right">
           <div className="btn-navbar partner">
-            <div className="icon icon-partner">
+            <div className="partner icon-partner">
               <img src={iconPartner} alt="img" />
             </div>
-            <div className="text text-partner">Become a Partner</div>
-            <div className="down down-partner">
+            <div className="partner text-partner">Become a Partner</div>
+            <div className="partner down-partner">
               <i className="fa-solid fa-angle-down"></i>
             </div>
           </div>
           <div className="btn-navbar profile-user">
-            <div className="icon avatar-user">
+            <div className="profile avatar-user">
               <img src={iconPartner} alt="img" />
             </div>
-            <div className="text user-name">Phan Dinh</div>
-            <div className="down down-partner">
+            <div className="profile user-name">Phan Dinh</div>
+            <div className="profile down-profile">
               <i className="fa-solid fa-angle-down"></i>
             </div>
           </div>
           <div className="btn-user"></div>
         </div>
-      </div>
-      <div className="background-bottom"></div>
+
     </div>
   );
 }

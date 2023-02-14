@@ -1,0 +1,38 @@
+.formbtn{
+    width: 85%;
+    margin: 0% 10% 0% 15%;
+    border: 1px solid ;
+    display: flex;
+}
+.formbtn-item{
+    width: 100%;
+    height: 100%;
+    margin: 0% 2%;
+}
+
+.input-form{
+    width: 100%;
+    background-color:rgba(25, 29, 35, 0.05);
+    padding: 10%;
+    border-radius: 5px;
+}
+
+.form-searchflight{
+    width: 100%;
+}
+.search-flight{
+    width: 100%;
+}
+.formbtn-btn{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-right:5%;
+}
+.btn-search{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10%;
+    background-color: red;
+    border: none;
+}
