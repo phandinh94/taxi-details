@@ -1,8 +1,8 @@
 
 .content{
     width: 80%;
-    position: absolute;
-    left: 15%;
+    margin-left: 15%;
+
 }
 .quicknav,
 .infoprice,
@@ -11,4 +11,7 @@
     border: 1px solid gray;
     border-radius: 5px;
     background-color: white;
+}
+.location{
+    margin-bottom: 5%;
 }

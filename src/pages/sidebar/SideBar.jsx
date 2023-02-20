@@ -1,4 +1,5 @@
 import "./SideBar.css";
+import sideBarObject from "../../assets/Object.png"
 
 function SideBar() {
   return (
@@ -8,7 +9,7 @@ function SideBar() {
       </div>
       <div className="sidebar-list">
         <div className="sidebar-item">
-          <i className="fa-solid fa-house" />
+          <i className="fa-solid  fa-house" />
         </div>
         <div className="sidebar-item">
           <i className="fa-solid fa-briefcase"></i>
@@ -24,7 +25,8 @@ function SideBar() {
         </div>
       </div>
       <div className="medal">
-        <i className="fa-solid fa-medal"></i>
+        <img className="img-object" src={sideBarObject}/>
+        {/* <i className="fa-solid fa-medal"></i> */}
       </div>
     </div>
   );

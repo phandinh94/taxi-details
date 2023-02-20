@@ -1,14 +1,35 @@
 .sidebar {
+    width: 7%;
     position: absolute;
-    left: 5%;
+    left: 2.5%;
     top: 5%;
-    padding: 2%;
     background: #0A6ADA;
     border-radius: 12px;
     text-align: center;
     color: white;
+    height: 75%;
 }
-
+.menu-sidebar{
+    width: 100%;
+    height: 10%;
+    padding-top: 5%;
+    font-size: 20px;
+}
 .sidebar-list {
     list-style-type: none;
+    width: 20%;
+    height: 50%;
+    padding: 25% 40%;
+}
+.sidebar-item{
+    padding-bottom: 20%;
+    height: 20%;
+}
+.medal{
+    width: 100%;
+    /* margin-top: 150%; */
+    
+}
+.img-object{
+    width: 100%;
 }

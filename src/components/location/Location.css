@@ -1,0 +1,63 @@
+
+.location-content{
+    width: 100%;
+    display: flex;
+    padding: 3%;
+}
+.location-left,
+.location-right{
+    width: 50%;
+}
+.location-item{
+    width: 100%;
+    display: flex;
+}
+
+.imgicon{
+    width: 20%;
+    padding: 2.5%;
+}
+
+.icon-address{
+    width: 100%;
+}
+.texticon p{
+    color: rgb(175,175,175);
+}
+
+.location-right{
+    position: relative;
+}
+.iconsearch-location,
+.btn-searchmap,
+.imgmap-location{
+    position: absolute;
+}
+.imgmap-location{
+    width: 80%;
+    left: 15%;
+}
+.imgmap-search{
+    width: 100%;
+}
+.btn-searchmap{
+    width: 60%;
+    left: 25%;
+    top: 70%;
+}
+.btn-showmap{
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 5% 2%;
+    border-radius: 20px;
+    color: rgb(10,106,218);
+}
+
+.iconsearch-location{
+    top: 42%;
+    left: 47%;
+}
+.map-search{
+    width: 100%;
+}

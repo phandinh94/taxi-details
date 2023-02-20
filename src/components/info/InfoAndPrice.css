@@ -2,14 +2,111 @@
     display: flex;
 }
 .product-img{
+    width: 40%;
     margin: 5% 2%;
 }
-.mginfo-product{
+.imginfo-product{
     width: 100%;
 }
+.infornation-product{
+    width: 70%;
+    margin: 2% 0%;
+}
+.ratting-star{
+    width: 25%;
+    height: 20%;
+    padding: 2% 0%;
+    background-color: rgb(60,96,151);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+.fa-star{
+    padding-left: 5%;
+}
+.item-star{
+    padding-left: 0%;
+}
+.review-area{
+    font-size: 15px;
+}
+
 .info-sale{
+    width: 30%;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 2%;
 }
 .ratting-product{
+    display: flex; 
+}
+.star-review{
     display: flex;
+    text-align: center;
+}
+.contemplate{
+    width: 100%;
+    list-style-type: none;
+    color: rgb(181,184,187);
+    display: flex;
+    /* font-size: 13px; */
+}
+.contemplate-item{
+    padding: 0% 2%;
+}
+.contemplate-icon{
+    color: rgb(133,133,149);
+}
+
+.checked-area{
+    width: 100%;
+    display: flex;
+}
+.checkbox{
+    width: 100%;
+}
+.fa-square-check{
+    font-size: 20px;
+    color: rgb(10,106,218);
+}
+.text-check{
+    text-align: center;
+    padding: 0% 0% 0% 6%;
+}
+
+.number-sale{
+    width: 100%;
+    font-size: 20px;
+    color: red;
+}
+.text-numbersale{
+    width: 100%;
+}
+.sale-money{
+    width: 30%;
+    text-align: right;
+}
+.title-right{
+    text-align: right;
+}
+.money-usd{
+    font-size: 30px;
+   font-weight: bolder;
+}
+.sum-pay{
+    width: 60%;
+    margin-right: 5%;
+}
+.btn-sumpay{
+    width: 100%;
+}
+.btn-sumclick{
+    width: 100%;
+    border: none;
+    background-color: rgb(10,106,218);
+    padding: 4%;
+    border-radius: 10px;
+    color: white;
 }
